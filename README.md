@@ -26,7 +26,8 @@ python -m ipykernel install --user --name damage_seg --display-name "damage_seg"
 
 ## Acknowledgements
 
-This project is built upon SegFormer (https://github.com/NVlabs/SegFormer) for semantic segmentation. We thank the authors for making their work publicly available. 
+This project is built upon SegFormer (https://github.com/NVlabs/SegFormer) for semantic segmentation. 
+We thank the authors for making their work publicly available. 
 If you use this code, please cite:
 
 ```bibtex
