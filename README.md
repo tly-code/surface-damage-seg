@@ -26,9 +26,13 @@ python -m ipykernel install --user --name damage_seg --display-name "damage_seg"
 
 ## Acknowledgements
 
-This project is built upon SegFormer (https://github.com/NVlabs/SegFormer) for semantic segmentation. 
+### Data
 
-We thank the authors for making their work publicly available. 
+Landsat 7/8/9 data courtesy of the U.S. Geological Survey (USGS). This project uses imagery accessed through Google Earth Engine.
+
+### Code
+
+This project is built upon SegFormer (https://github.com/NVlabs/SegFormer) for semantic segmentation. We thank the authors for making their work publicly available. 
 
 If you use this code, please cite:
 
@@ -45,9 +49,10 @@ If you use this code, please cite:
 
 ```
 surface-damage-seg/
-├── damage_upload.py                          # Segmentation model definition
-├── damage_inference.ipynb                    # Inference script
-├── ice_shelf_damage_temporal_analysis.ipynb  # Temporal analysis
-├── environment.yml                           # Conda environment specification
+├── landsat_daily_composite_export_GEE.js      # Google Earth Engine data download script
+├── damage_upload.py                           # Segmentation model definition
+├── damage_inference.ipynb                     # Inference script
+├── ice_shelf_damage_temporal_analysis.ipynb   # Temporal analysis
+├── environment.yml                            # Conda environment specification
 └── README.md
 ```
